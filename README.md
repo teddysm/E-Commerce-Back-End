@@ -19,35 +19,32 @@ This is the back end for an e-commerce site.
 
 ## Description
 
-- This program will start with a menu and user can select from 8 options
-- After each selection, program will generate/edit information and prompt user for another option
+- This program is the back-end of an e-commerce website. User will need to use Insomnia to hit each route.
 
 <br>
 
 ## Usage
 
-- Use Mysql to run the schema and the seed SQL files
-- Start the program with 'npm start'
-  ![Screenshot](./assets/Screenshot1.png)
-  ![Screenshot](./assets/Screenshot2.png)
-  ![Screenshot](./assets/Screenshot3.png)
-  ![Screenshot](./assets/Screenshot4.png)
-  ![Screenshot](./assets/Screenshot5.png)
-  ![Screenshot](./assets/Screenshot6.png)
+- Use Insomnia or similar software to hit each GET, POST, PUT, DELETE route of Products, Categories and Tags
+- Start the server with 'npm start'
+
+  ![Screenshot](./Assets/Screenshot1.png)
+  ![Screenshot](./Assets/Screenshot2.png)
+  ![Screenshot](./Assets/Screenshot3.png)
+  ![Screenshot](./Assets/Screenshot4.png)
 
 <br>
 
 ## Links
 
 - Github page: https://github.com/teddysm/E-Commerce-Back-End
-- Video walkthrough: https://drive.google.com/file/d/1uj-EOwVwclUagV6Fe3fXSDA2Wu3r2tqS/view
-- Or: https://app.screencastify.com/manage/videos/MuiYre8Zaje3H612S9hl
+- Video walkthrough: https://drive.google.com/file/d/177VAf8o0hxIPvlIdtOYVsGUOtZBkn5Tm/view
 
 <br>
 
 ## Features
 
-- User can view all employees, Add Employee, Update Employee Role, View All Role, Add Role, View All Department, and Add Department.
+- User can view all tags, categories and products as well as edit and delete them. User can also create new tags, categories and products.
 
 <br>
 
@@ -57,7 +54,6 @@ This is the back end for an e-commerce site.
 - Users need to install Insomnia or similar software.
 
 <br>
-
 
 ## User Story
 
@@ -82,4 +78,3 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
-
